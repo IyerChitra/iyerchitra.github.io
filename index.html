@@ -96,17 +96,27 @@
 
     <section class="section-gallery js--section-gallery" id="gallery">
         <div id="photos">
-            <img src="resources/img/1.JPG" alt="Tanjore">
-            <img src="resources/img/2.jpg" alt="Kerala Boat House">
-            <img src="resources/img/3.jpg" alt="Chai and Bajji">
-            <img src="resources/img/4.jpg" alt="VR CHennai">
-            <img src="resources/img/5.jpg" alt="Goa">
-            <img src="resources/img/6.jpg" alt="Wedding">
-            <img src="resources/img/7.jpg" alt="Gokarna">
-            <img src="resources/img/8.jpg" alt="Morjim Beach">
-            <img src="resources/img/9.jpg" alt="HArry Potter">
-
-            <img src="resources/img/10.jpg" alt="Honey">
+            <!-- --h is each photo's height/width ratio, so photos share their column's height proportionally -->
+            <div class="photo-col">
+                <img src="resources/img/kayak-sydney.jpg" alt="Kayaking at Sydney Harbour" style="--h: 1.78">
+                <img src="resources/img/5.jpg" alt="Goa" style="--h: 0.99">
+            </div>
+            <div class="photo-col">
+                <img src="resources/img/3.jpg" alt="Chai and Bajji" style="--h: 1.08">
+                <img src="resources/img/central-park.jpg" alt="Central Park" style="--h: 1.78">
+            </div>
+            <div class="photo-col">
+                <img src="resources/img/snake.jpg" alt="Holding a python" style="--h: 0.67">
+                <img src="resources/img/harry-potter-broadway.jpg" alt="Harry Potter and the Cursed Child" style="--h: 1.78">
+            </div>
+            <div class="photo-col">
+                <img src="resources/img/concert.jpg" alt="Concert" style="--h: 1.33">
+                <img src="resources/img/grand-canyon.jpg" alt="Grand Canyon" style="--h: 1.33">
+            </div>
+            <div class="photo-col">
+                <img src="resources/img/saree-beach.jpg" alt="Beach in a saree" style="--h: 1.78">
+                <img src="resources/img/kangaroos.jpg" alt="Kangaroos" style="--h: 0.56">
+            </div>
         </div>
 
     </section>
@@ -123,41 +133,57 @@
             </div>
             <div class="col span-2-of-2 exp-box">
                 <ul class="timeline">
-                    <li class="event" data-date="Mar 2024 &mdash; Mar 2025">
-                        <h4>MBA Candidate - Class of 2025</h4>
-                        <h5>Indian School of Business, Hyderabad</h5>
-                        <p>Specialization: Strategy & Leadership, Information Systems
-                            Alumni Network Coordinator, Alumni Affairs Council</p>
+                    <li class="event" data-date="Apr 2025 &mdash; Present">
+                        <h4>Staff Inbound Product Manager</h4>
+                        <h5>ServiceNow, Hyderabad</h5>
+                        <p>Own the fulfiller experience across Workplace Service Delivery, a $100M ARR business.
+                            Redesigned Space Planning (cutting key paths from 4 clicks to 2), driving the new Facilities
+                            Management SKU, and building AI-generated insights for Fulfiller Operations.</p>
                     </li>
-                    <li class="event" data-date="Aug 2021 &mdash; Mar 2024">
+                    <li class="event" data-date="Apr 2024 &mdash; Apr 2025">
+                        <h4>MBA (Full Time Post Graduate Program)</h4>
+                        <h5>Indian School of Business, Hyderabad</h5>
+                        <p>GMAT Score: 710. Double Majors: Finance, IT Management. Winner of the Bajaj Finserv Atom CEO Challenge and
+                            Myntra &times; The Product Folks BuildAThon. Alumni Network Coordinator &mdash; launched
+                            Shadow an Alum for 400+ students.</p>
+                    </li>
+                    <li class="event" data-date="Sep 2021 &mdash; Apr 2024">
                         <h4>Senior Software Engineer</h4>
                         <h5>ServiceNow, Hyderabad</h5>
-                        <p>Senior Developer in Research Engineering Team – Financials, using VueJS, NodeJS
-                            and TypeScript to develop Web Applications for Financial Reports.</p>
+                        <p>Rebuilt Indoor Maps V2 for Workplace Service Delivery, reaching 99% reliability and cutting
+                            map render time by 75%. Cut page load from 30s to 3s and was selected for the Leadership
+                            Development Program.</p>
                     </li>
-                    <li class="event" data-date="Dec 2020 &mdash; Aug 2021">
+                    <li class="event" data-date="Dec 2020 &mdash; Sep 2021">
                         <h4>Senior Software Engineer</h4>
                         <h5>FactSet Research Systems, Hyderabad</h5>
-                        <p>Senior Developer in Research Engineering Team – Financials, using VueJS, NodeJS
-                            and TypeScript to develop Web Applications for Financial Reports.</p>
+                        <p>Lead Engineer for Research Insights. Re-architected API data exchange to Protobuf and cut
+                            page load from 6s to 1.2s.</p>
+                    </li>
+                    <li class="event" data-date="Jun 2020 &mdash; Aug 2021">
+                        <h4>Co-founder & Product Lead</h4>
+                        <h5>Divine Mantra</h5>
+                        <p>Bootstrapped consumer startup. Took the product from customer interviews to MVP launch,
+                            acquiring 1,500 users in 2 months.</p>
                     </li>
                     <li class="event" data-date="Jun 2020 &mdash; Dec 2020">
-                        <h4>Specialist</h4>
+                        <h4>Specialist &ndash; Software Developer</h4>
                         <h5>Temenos India Pvt. Ltd., Chennai</h5>
-                        <p>Part of the Digital Banking Team - Infinity. Working on the Retail Banking Application -
-                            Wealth module using Kony Visualiser and Quantum Fabric.</p>
+                        <p>Infinity Digital Banking. Built Infinity Wealth from the ground up, with personalized
+                            dashboards and portfolio analysis; received the Temenos Tenacity award.</p>
                     </li>
-                    <li class="event" data-date="Aug 2015 - Jun 2020">
-                        <h4>Associate - Projects</h4>
+                    <li class="event" data-date="Aug 2015 &mdash; Jun 2020">
+                        <h4>Associate &ndash; Projects (Team Lead)</h4>
                         <h5>Cognizant Technology Solutions, Chennai</h5>
-                        <p>Team Lead and Senior Software Developer for the Loan Services including Content Management
-                            Systems Applications for a leading American Financial Institution.</p>
+                        <p>Led a team of 10 building a loan-processing and document platform for a top-10 US bank.
+                            Won the Dynamo award (automation tool saving $1.5M a year) and the DigiStellar award.</p>
                     </li>
-                    <li class="event" data-date="Aug 2011 - Jun 2015">
+                    <li class="event" data-date="2011 &mdash; 2015">
                         <h4>Bachelor of Engineering</h4>
                         <h4 class="branch">(Electrical & Electronics)</h4>
                         <h5>Anna University, R.M.K. Engineering College, Chennai</h5>
-                        <p>University Rank Holder, secured a CGPA of 8.79</p>
+                        <p>CGPA 8.79/10. University Rank 37 of 14,862; International Semi-Finalist, Schneider Electric
+                            Go Green in the City.</p>
                     </li>
                 </ul>
             </div>
@@ -186,9 +212,9 @@
                 </div>
                 <div class="tile">
                     <img src="resources/img/hul.jpeg" alt="HUL-Lime">
-                    <span class="subtext">National Finalist - On-going</span>
+                    <span class="subtext">National Runner-up</span>
                     <div class="overlay">
-                        <div class="text">National Finalist (5/21k+) on-going <br><br> Hindustan Unilever LIME <br><br> Awarded PPI: Crafted marketing strategy & roadmap aimed at Gen Z consumers</div>
+                        <div class="text">National Runner-up (21k+ participants) <br><br> Hindustan Unilever LIME <br><br> Awarded PPI: Crafted marketing strategy & roadmap aimed at Gen Z consumers</div>
                     </div>
                 </div>
                 <div class="tile">
@@ -200,9 +226,9 @@
                 </div>
                 <div class="tile">
                     <img src="resources/img/Okta.jpeg" alt="Okta">
-                    <span class="subtext">Participant - On-going</span>
+                    <span class="subtext">Converted to Full-Time PM Role</span>
                     <div class="overlay">
-                        <div class="text">Enhance the value of the Okta Integration Network by encouraging Independent Software Vendors (ISVs) to collaborate more closely with Okta</div>
+                        <div class="text">Converted to Full-Time PM Role<br><br>Enhance the value of the Okta Integration Network by encouraging Independent Software Vendors (ISVs) to collaborate more closely with Okta</div>
                     </div>
                 </div>
                 
