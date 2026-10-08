@@ -143,9 +143,10 @@ h2::after {
     float: left;
     color: #fff;
     text-decoration: none;
-    font-weight: 300;
-    font-size: 150%;
-    font-family: 'Segoe Script';
+    font-weight: 400;
+    font-style: normal;
+    font-size: 200%;
+    font-family: 'Allura', cursive;
 }
 
 .logo-black {
@@ -155,9 +156,10 @@ h2::after {
     float: left;
     color: #000;
     text-decoration: none;
-    font-weight: bold;
-    font-size: 150%;
-    font-family: 'Segoe Script';
+    font-weight: 400;
+    font-style: normal;
+    font-size: 200%;
+    font-family: 'Allura', cursive;
 }
 
 .icon-big {
